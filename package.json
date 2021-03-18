@@ -1,18 +1,24 @@
 {
-  "name": "vanilla",
+  "name": "alpinejs-sandbox",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
+  "description": "https://github.com/alpinejs/alpine",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "parcel index.html --open"
   },
-  "dependencies": { "parcel-bundler": "^1.6.1" },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
   "devDependencies": {
     "@babel/core": "7.2.0"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": ["javascript", "starter"]
+  "keywords": [
+    "alpinejs",
+    "javascript",
+    "minimal",
+    "sandbox"
+  ]
 }
